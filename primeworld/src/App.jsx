@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-     oi
+     <h1>Gojo Satoru </h1>
     </>
   )
 }
