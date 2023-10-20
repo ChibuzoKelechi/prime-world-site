@@ -27,7 +27,7 @@ const NavBar = () => {
 
             </div>
             
-            <SideNav/>
+            {/* <SideNav/> */}
 
         </nav>
      );
@@ -36,6 +36,7 @@ const NavBar = () => {
 export default NavBar;
 
 
+// eslint-disable-next-line no-unused-vars
 const SideNav = () => {
 
   function closeNav() {
@@ -80,8 +81,12 @@ function LargeScreenNav() {
       <ul className='lg:flex uppercase justify-evenly'>
 
          <li>
+            contact us
            {/* <Link to='/'>Home</Link> */}
          </li>
+         <li>guide</li>
+         <li>about</li>
+         <li>models</li>
 
       </ul>
     </div>
