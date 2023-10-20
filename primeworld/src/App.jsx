@@ -1,11 +1,12 @@
 import './App.css'
+import HomePage from './Pages/Home'
 
 function App() {
 
   return (
-    <>
-     <h1>Gojo Satoru </h1>
-    </>
+    <section className="bg-white">
+     <HomePage/>
+    </section>
   )
 }
 
