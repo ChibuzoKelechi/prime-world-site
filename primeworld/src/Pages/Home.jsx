@@ -1,6 +1,6 @@
 import Hero from "../Components/Hero";
 import NavBar from "../Components/NavBar";
-// import WhoWeAre from "../Components/WhoWeAre";
+import WhoWeAre from "../Components/WhoWeAre";
 import turbineImg from '../assets/img1/environmentally-friendly-renewable-energy-12153665.jpeg'
 
 
@@ -21,8 +21,7 @@ const HomePage = () => {
             <main className="">
              <article className="">
               
-
-              {/* <WhoWeAre/> */}
+              <WhoWeAre/>
 
              </article>
 
