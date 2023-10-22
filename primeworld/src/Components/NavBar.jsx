@@ -13,7 +13,7 @@ const NavBar = () => {
 
 
     return ( 
-        <nav className="bg-transparent flex justify-between w-full h-16 p-4 nav z-10">
+        <nav className="bg-transparent flex justify-between w-full h-16 p-4 nav z-10 lg:px-24 lg:pt-8">
             <div>
                <img src={logo} alt="xavioenergylogo" className="w-48" /> 
             </div>
@@ -80,13 +80,13 @@ function LargeScreenNav() {
     <div className='lg:flex sm:hidden md:hidden desknav'>
       <ul className='lg:flex uppercase justify-evenly'>
 
-         <li>
-            contact us
-           {/* <Link to='/'>Home</Link> */}
-         </li>
-         <li>guide</li>
+         <li className="text-teal-500">Home</li>
          <li>about</li>
-         <li>models</li>
+         {/* <li>our services</li>
+         <li>our plans</li> */}
+         <li>contact</li>
+         <li>news</li>
+         <li>login</li>
 
       </ul>
     </div>

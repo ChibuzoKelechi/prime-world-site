@@ -35,12 +35,13 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 
   .desknav{
     display: none;
+    color: aliceblue;
   }
   
   .desknav ul li{
     padding: 5px 15px;
     font-weight: 500;
-   color: whitesmoke;
+    
   }
   
   .desknav ul li:hover{
