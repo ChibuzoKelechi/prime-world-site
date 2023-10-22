@@ -28,5 +28,3 @@ function Step({firstIcon, secondIcon, firstTitle, secondTitle, firstInfo, second
 
      );
 }
-
-export default Step;
